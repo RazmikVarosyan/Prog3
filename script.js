@@ -180,3 +180,14 @@ function draw() {
         }
     }
 }
+var obj = {
+    //first_name, last_name ...
+    sayHello() {
+        console.log("Hello");
+    }
+ }
+ 
+ console.log(obj);
+ console.log(obj.first_name);
+ obj.sayHello();
+ 
